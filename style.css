@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Georama", serif;
+  font-weight: 450;
+  box-sizing: border-box;
+}
+
+/* Responsive Images */
+.mainimage {
+  width: 100%;
+  height: auto;
+  max-height: 26rem;
+}
+
+/* Header Links */
+.headerlink {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.headerlink ul {
+  display: inline-block;
+  text-align: center;
+}
+
+.headerlink ul li {
+  display: inline-block;
+  margin: 0 10px;
+  list-style: none;
+}
+
+.headerlink ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Zomato Logo */
+.zamtocenter {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.zamtocenter img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+/* Paragraph */
+.paragraph {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: antiquewhite;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Search Form */
+#searchform {
+  position: absolute;
+  top: 16rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.search {
+  width: 18rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+}
+
+.searchbox {
+  width: 5rem;
+  height: 2.5rem;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+/* Second Section */
+.second2div {
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.two1,
+.two2 {
+  display: inline-block;
+  width: 45%;
+  margin: 1%;
+  text-align: center;
+}
+
+.two1 img,
+.two2 img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.4rem;
+}
+
+.twop,
+.twopp {
+  margin-top: 1rem;
+  color: brown;
+  background-color: rgba(255, 235, 205, 0.527);
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+}
+
+/* Popular Localities */
+.h2 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.places {
+  width: 100%;
+  text-align: center;
+}
+
+.box {
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+}
+
+.box button {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  margin-top: 2rem;
+}
+
+footer ul {
+  display: inline-block;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 10px;
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer p {
+  margin-top: 1rem;
+  color: #666;
+}
